@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LDs Printing",
+    "slug": "LDsPrinting",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jxvny.LDsPrinting",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to allow users to upload a picture for printing",
+        "NSCameraUsageDescription": "This app uses the camera to allow users to take a picture for printing"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }    
+  }
+}
